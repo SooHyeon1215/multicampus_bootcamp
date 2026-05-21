@@ -1,0 +1,1 @@
+python C:\Users\user\OneDrive\Desktop\데이터 분석 부트캠프\260423\news_crawling.py

@@ -1,0 +1,18 @@
+<!-- Google tag (gtag.js) -->
+ <!-- 외부의 js파일을 로드 -> import id를 지정 -->
+  <!-- async : 코드가 실행될떄까지 기다린다. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3Z6V0YF5DR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  // gtag라는 함수 생성
+  function gtag(){
+    dataLayer.push(arguments);
+    }
+    // 현재 시간을 넣어줌 -> 구글에게 데이터를 보낸다.
+  gtag('js', new Date()); 
+    // gtag의 설정을 변경하는 부분
+  gtag('config', 'G-3Z6V0YF5DR',
+    {'debug_mode': true}
+  );
+
+</script>
